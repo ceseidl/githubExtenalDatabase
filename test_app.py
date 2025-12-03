@@ -4,7 +4,7 @@ import pytest
 from app import insert_log, fetch_logs
 
 # expected_values.txt deve estar ao lado deste arquivo
-TXT_FILE = pathlib.Path(__file__).with_name("expected_values.txt")
+TXT_FILE = pathlib.Path(__file__).with_name("valores.txt")
 
 @pytest.fixture(scope="module")
 def expected_values():
