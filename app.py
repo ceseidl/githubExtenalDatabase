@@ -7,7 +7,7 @@ SQL_CONNECTION_STRING (ODBC completo).
 import os
 import pyodbc
 
-CONN_STR_ENV = "SDRIVER={ODBC Driver 18 for SQL Server};SERVER=tcp:petro.database.windows.net,1433;DATABASE=opensearch;UID=seidl;PWD=82Portao503!;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
+CONN_STR_ENV = "DRIVER={ODBC Driver 18 for SQL Server};SERVER=tcp:petro.database.windows.net,1433;DATABASE=opensearch;UID=seidl;PWD=82Portao503!;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
 
 
 def get_connection():
